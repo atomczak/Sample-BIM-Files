@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/ids.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<specification name="First IDS">
+	
+		<applicability>
+			<entity>
+				<name>IfcWall</name>
+			</entity>
+		</applicability>
+		
+		<requirements>
+
+			<entity>
+				<name>IfcWall</name>
+				<!-- Invalid: Not closed XML tag -->
+				<predefinedtype>CLADDING
+			</entity>
+			
+		</requirements>
+	</specification>
+	<info/>
+</ids>

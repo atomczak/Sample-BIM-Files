@@ -11,30 +11,9 @@
 		<requirements>
 
 			<material location="type" href="https://identifier.buildingsmart.org/uri/something" use="optional">
-				<value>TEST material 1</value>
-				<instructions>The only acceptable value is one lowercase letter (from a to z)</instructions>
+				<value>Test_Material</value>
+				<instructions>Material must be exactly called 'Test_Material'</instructions>
 			</material>
-			
-			<property location="type">
-				<propertyset>MySet</propertyset>
-				<name>MyParam</name>
-				<value>MyValue</value>
-			</property>
-			
-			<!--
-			<property location="type" href="https://identifier.buildingsmart.org/uri/something">
-				<propertyset>MySet</propertyset>
-				<name>Param1</name>
-				<value>
-
-					<xs:restriction base="xs:string">
-						<xs:minLength value="2"/>
-						<xs:maxLength value="5"/>
-					</xs:restriction> 
-					
-				</value>
-			</property>
-			-->
 			
 		</requirements>
 	</specification>

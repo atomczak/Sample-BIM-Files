@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/ids.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<specification name="First IDS">
+		
+		<!-- Invalid: Missing entity name -->
+		<applicability>
+			<entity>
+				<predefinedtype>CLADDING</predefinedtype>
+			</entity>
+		</applicability>
+		
+		<requirements>
+
+			<entity>
+				<name>IfcWall</name>
+				<predefinedtype>CLADDING</predefinedtype>
+			</entity>
+
+			<classification location="any">
+				<value>Test_Classification</value>
+			<system href="http://identifier.buildingsmart.org/uri/owner/name">Test_System</system>
+			</classification>
+			
+			<property location="any">
+				<propertyset>Test_PropertySet</propertyset>
+				<name>Test_Parameter</name>
+				<value>Test_Value</value>
+			</property>
+			
+			<material location="any" href="https://identifier.buildingsmart.org/uri/something" use="optional">
+				<value>Test_Material</value>
+				<instructions>Material must be exactly called 'Test_Material'</instructions>
+			</material>
+			
+		</requirements>
+	</specification>
+	<info/>
+</ids>
