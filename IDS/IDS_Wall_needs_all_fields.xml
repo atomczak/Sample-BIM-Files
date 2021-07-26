@@ -4,31 +4,31 @@
 	
 		<applicability>
 			<entity>
-				<name>IfcWall</name>
+				<name><simpleValue>IfcWall</simpleValue></name>
 			</entity>
 		</applicability>
 		
 		<requirements>
 
 			<entity>
-				<name>IfcWall</name>
-				<predefinedtype>CLADDING</predefinedtype>
+				<name><simpleValue>IfcWall</simpleValue></name>
+				<predefinedtype><simpleValue>CLADDING</simpleValue></predefinedtype>
 			</entity>
 
 			<classification location="any">
-				<value>Test_Classification</value>
-			<system href="http://identifier.buildingsmart.org/uri/owner/name">Test_System</system>
+				<value><simpleValue>Test_Classification</simpleValue></value>
+			<system href="http://identifier.buildingsmart.org/uri/owner/name"><simpleValue>Test_System</simpleValue></system>
 			</classification>
 			
 			<property location="any">
-				<propertyset>Test_PropertySet</propertyset>
-				<name>Test_Parameter</name>
-				<value>Test_Value</value>
+				<propertyset><simpleValue>Test_PropertySet</simpleValue></propertyset>
+				<name><simpleValue>Test_Parameter</simpleValue></name>
+				<value><simpleValue>Test_Value</simpleValue></value>
 			</property>
 			
 			<material location="any" href="https://identifier.buildingsmart.org/uri/something" use="optional">
-				<value>Test_Material</value>
-				<instructions>Material must be exactly called 'Test_Material'</instructions>
+				<value><simpleValue>Test_Material</simpleValue></value>
+				<instructions><simpleValue>Material must be exactly called 'Test_Material'<simpleValue></instructions>
 			</material>
 			
 		</requirements>
