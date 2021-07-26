@@ -17,7 +17,8 @@
 
 			<classification location="any">
 				<value><simpleValue>Test_Classification</simpleValue></value>
-			<system><simpleValue>Test_System</simpleValue></system>
+				<system><simpleValue>Test_System</simpleValue></system>
+				<instructions>Sample instructions</instructions>
 			</classification>
 			
 			<property location="any">
@@ -26,7 +27,7 @@
 				<value><simpleValue>Test_Value</simpleValue></value>
 			</property>
 			
-			<material location="any" href="https://identifier.buildingsmart.org/uri/something" use="optional">
+			<material location="any" use="optional">
 				<value><simpleValue>Test_Material</simpleValue></value>
 				<instructions>Material must be exactly called 'Test_Material'</instructions>
 			</material>

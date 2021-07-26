@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
 	<specification name="First IDS" necessity="required">
 		
 		<!-- Invalid: Missing entity name -->
@@ -18,7 +18,7 @@
 
 			<classification location="any">
 				<value><simpleValue>Test_Classification</simpleValue></value>
-			<system href="http://identifier.buildingsmart.org/uri/owner/name"><simpleValue>Test_System</simpleValue></system>
+			<system><simpleValue>Test_System</simpleValue></system>
 			</classification>
 			
 			<property location="any">
@@ -27,7 +27,7 @@
 				<value><simpleValue>Test_Value</simpleValue></value>
 			</property>
 			
-			<material location="any" href="https://identifier.buildingsmart.org/uri/something" use="optional">
+			<material location="any" use="optional">
 				<value><simpleValue>Test_Material</simpleValue></value>
 				<instructions><simpleValue>Material must be exactly called 'Test_Material'</simpleValue></instructions>
 			</material>

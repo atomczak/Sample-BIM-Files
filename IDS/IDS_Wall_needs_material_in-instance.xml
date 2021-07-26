@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ids xmlns="http://standards.buildingsmart.org/IDS" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/ids.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<specification name="First IDS">
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
+	<specification name="First IDS" necessity="required">
 	
 		<applicability>
 			<entity>
-				<name>IfcWall</name>
+				<name><simpleValue>IfcWall</simpleValue></name>
 			</entity>
 		</applicability>
 		
 		<requirements>
 
-			<material location="instance" href="https://identifier.buildingsmart.org/uri/something" use="optional">
-				<value>Test_Material</value>
+			<material location="instance" use="optional">
+				<value><simpleValue>Test_Material</simpleValue></value>
 				<instructions>Material must be exactly called 'Test_Material'</instructions>
 			</material>
 			

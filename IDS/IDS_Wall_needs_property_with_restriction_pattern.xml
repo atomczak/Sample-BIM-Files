@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ids xmlns="http://standards.buildingsmart.org/IDS" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/ids.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
 	<specification name="First IDS">
 	
 		<applicability>
 		
 			<entity>
-				<name>IfcWall</name>
+				<name><simpleValue>IfcWall</simpleValue></name>
 			</entity>
 			
 		</applicability>
@@ -13,8 +13,8 @@
 		<requirements>
 			
 			<property location="any">
-				<propertyset>Test_PropertySet</propertyset>
-				<name>Test_Parameter</name>
+				<propertyset><simpleValue>Test_PropertySet</simpleValue></propertyset>
+				<name><simpleValue>Test_Parameter</simpleValue></name>
 				<value>
 					<xs:restriction base="xs:string">
 						<xs:pattern value="[A-Z]{2,4}"/>	<!-- have 2, 3 or 4 letters-->
