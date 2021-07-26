@@ -28,7 +28,7 @@
 			
 			<material location="any" href="https://identifier.buildingsmart.org/uri/something" use="optional">
 				<value><simpleValue>Test_Material</simpleValue></value>
-				<instructions><simpleValue>Material must be exactly called 'Test_Material'<simpleValue></instructions>
+				<instructions>Material must be exactly called 'Test_Material'</instructions>
 			</material>
 			
 		</requirements>
