@@ -17,7 +17,7 @@
 
 			<classification location="any">
 				<value><simpleValue>Test_Classification</simpleValue></value>
-			<system href="http://identifier.buildingsmart.org/uri/owner/name"><simpleValue>Test_System</simpleValue></system>
+			<system><simpleValue>Test_System</simpleValue></system>
 			</classification>
 			
 			<property location="any">
