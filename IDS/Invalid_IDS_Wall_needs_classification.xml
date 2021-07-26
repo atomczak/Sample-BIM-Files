@@ -4,7 +4,7 @@
 	
 		<applicability>
 			<entity>
-				<name>IfcWall</name>
+				<name><simpleValue>IfcWall</simpleValue></name>
 			</entity>
 		</applicability>
 		
@@ -12,7 +12,7 @@
 			
 			<!-- Invalid: Missing system -->
 			<classification location="any">
-				<value>Test_Classification</value>
+				<value><simpleValue>Test_Classification</simpleValue></value>
 			</classification>
 			
 		</requirements>
