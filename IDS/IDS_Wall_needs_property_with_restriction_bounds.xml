@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
-	<specification name="First IDS" necessity="required">
+	<specification name="First IDS" necessity="required">	
 	
 		<applicability>
 		
 			<entity>
-				<name></simpleValue>IfcWall</simpleValue></name>
+				<name><simpleValue>IfcWall</simpleValue></name>
 			</entity>
 			
 		</applicability>
