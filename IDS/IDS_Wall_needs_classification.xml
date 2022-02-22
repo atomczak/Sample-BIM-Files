@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
-	<specification name="First IDS" necessity="required">
-	
-		<applicability>
-			<entity>
-				<name><simpleValue>IfcWall</simpleValue></name>
-			</entity>
-		</applicability>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_05.xsd">
+	<info>
+		<title>Test IDS</title>
+	</info>
+	<specifications>
+		<specification name="First IDS" use="required" ifcVersion="IFC2X3">
 		
-		<requirements>
-
-			<classification location="any">
-				<value><simpleValue>Test_Classification</simpleValue></value>
-				<system><simpleValue>Test_System</simpleValue></system>
-				<instructions>Random instructions</instructions>
-			</classification>
+			<applicability>
+				<entity>
+					<name><simpleValue>IfcWall</simpleValue></name>
+				</entity>
+			</applicability>
 			
-		</requirements>
-	</specification>
-	<info/>
+			<requirements>
+
+				<classification location="any">
+					<value><simpleValue>Test_Classification</simpleValue></value>
+					<system><simpleValue>Test_System</simpleValue></system>
+				</classification>
+				
+			</requirements>
+		</specification>
+	</specifications>
 </ids>

@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
-	<specification name="First IDS" necessity="required">
-	
-		<applicability>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_05.xsd">
+	<info>
+		<title>Test IDS</title>
+	</info>
+	<specifications>
+		<specification name="First IDS" use="required" ifcVersion="IFC2X3">
 		
-			<entity>
-				<name><simpleValue>IfcWall</simpleValue></name>
-			</entity>
+			<applicability>
 			
-		</applicability>
-		
-		<requirements>
+				<entity>
+					<name><simpleValue>IfcWall</simpleValue></name>
+				</entity>
+				
+			</applicability>
 			
-			<property location="any">
-				<propertyset><simpleValue>Test_PropertySet</simpleValue></propertyset>
-				<name><simpleValue>Test_Parameter</simpleValue></name>
-				<value>
-					<xs:restriction base="xs:string">
-						<xs:enumeration value="testA"/>
-						<xs:enumeration value="testB"/>
-					</xs:restriction>
-				</value>
-			</property>
-						
-		</requirements>
-	</specification>
-	<info/>
+			<requirements>
+				
+				<property location="any">
+					<propertySet><simpleValue>Test_PropertySet</simpleValue></propertySet>
+					<name><simpleValue>Test_Parameter</simpleValue></name>
+					<value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="testA"/>
+							<xs:enumeration value="testB"/>
+						</xs:restriction>
+					</value>
+				</property>
+							
+			</requirements>
+		</specification>
+	</specifications>
 </ids>
